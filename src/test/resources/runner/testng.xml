@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BuyAGift">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="co.uk.buyagift.listeners.CustomListeners"/>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="co.uk.buyagift.testcases.TestHomepage" />
+			<class name="co.uk.buyagift.testcases.TestSearch" />
+			<class name="co.uk.buyagift.testcases.TestProductPrice" />
+			<class name="co.uk.buyagift.testcases.TestBasket" />
+			<class name="co.uk.buyagift.testcases.TestEVoucher" />
+			<class name="co.uk.buyagift.testcases.TestPurchaseAsGuest" />
+			<class name="co.uk.buyagift.testcases.TestPostCodeSearch" />
+			<class name="co.uk.buyagift.testcases.TestInvalidCardNumberError" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

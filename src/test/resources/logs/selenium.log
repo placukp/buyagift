@@ -1,0 +1,12 @@
+01:34:48,342 DEBUG devpinoyLogger:46 - Config file loaded
+01:34:48,344 DEBUG devpinoyLogger:61 - OR file loaded
+01:34:53,823 DEBUG devpinoyLogger:95 - Chrome Launched
+01:35:01,119 DEBUG devpinoyLogger:16 - Homepage opened OK
+01:35:02,632 DEBUG devpinoyLogger:21 - Product search OK
+01:35:07,406 DEBUG devpinoyLogger:22 - Prouct price OK
+01:35:07,437 DEBUG devpinoyLogger:20 - Prouct is in the basket OK
+01:35:07,516 DEBUG devpinoyLogger:29 - Personalized Msg added OK
+01:35:08,235 DEBUG devpinoyLogger:24 - EVoucher test OK
+01:35:10,521 DEBUG devpinoyLogger:25 - Personal details added OK
+01:35:13,345 DEBUG devpinoyLogger:31 - Invalid card number error displayed OK
+01:35:13,976 DEBUG devpinoyLogger:137 - test execution completed
